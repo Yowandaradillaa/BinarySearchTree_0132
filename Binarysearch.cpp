@@ -89,4 +89,10 @@ public:
 			preorder(ptr->rightchild); // right
 		}
 	}
+    void postorder(Node* ptr) // function to perform inorder traversal
+	{
+		if (ROOT == NULL) {
+			cout << "Tree is empty" << endl;
+			return;
+		}
 	};
